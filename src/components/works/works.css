@@ -1,0 +1,38 @@
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 35px 20px;
+  }
+  .title{
+    text-align: center;
+    font-family: "Roboto";
+    font-weight: 700;
+    margin-bottom: 80px;
+font-size: 35px;
+padding-top: 30px;
+  }
+.cards__wrapper{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+.card{
+  padding: 20px;
+  border-radius: 2rem;
+  border: 1px solid lightgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pizza__card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pizza__logo{
+  width: 90px;
+}

@@ -1,0 +1,50 @@
+.skills{
+    background: #EDF7FA;
+    padding: 80px 0;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+  }
+  .skills__title{
+    text-align: center;
+    font-family: "Roboto";
+    font-weight: 700;
+    margin-bottom: 80px;
+font-size: 35px;
+  }
+  .skills__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+  }
+  .element{
+    display: flex;
+    flex-direction:column;
+    background-color: #fff;
+    gap: 20px;
+    padding: 20px;
+    width: 270px;
+    height: 250px;
+    border-radius: 1rem;
+    /* box-shadow: 7px 7px 6px 0 lightblue; */
+  }
+  .element__img{
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .element__title{
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+  }
